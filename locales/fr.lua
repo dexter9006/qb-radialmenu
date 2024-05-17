@@ -18,6 +18,12 @@ local Translations = {
         already_in_trunk = "Tu es déjà dans le coffre.",
         someone_in_trunk = "Quelqu'un est déjà dans le coffre."
     },
+    progress = {
+    flipping_car = "Retournement du véhicule.."
+    },
+    task = {
+        cancek_task = "Annulation..."
+    },
     success = {
         extra_activated = "%{extra} supplémentaires ont été activés.",
         entered_trunk = "Tu es dans le coffre."
