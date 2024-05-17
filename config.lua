@@ -8,19 +8,19 @@ Config.Fliptime = 15000
 Config.MenuItems = {
     {
         id = 'citizen',
-        title = 'Citizen',
+        title = 'Citoyen',
         icon = 'user',
         items = {
             {
                 id = 'givenum',
-                title = 'Give Contact Details',
+                title = 'Donner ses coordonnées',
                 icon = 'address-book',
                 type = 'client',
                 event = 'qb-phone:client:GiveContactDetails',
                 shouldClose = true
             }, {
             id = 'getintrunk',
-            title = 'Get In Trunk',
+            title = 'Rentrer dans coffre',
             icon = 'car',
             type = 'client',
             event = 'qb-trunk:client:GetIn',
@@ -34,7 +34,7 @@ Config.MenuItems = {
             shouldClose = true
         }, {
             id = 'togglehotdogsell',
-            title = 'Hotdog Selling',
+            title = 'Vendre des Hotdogs',
             icon = 'hotdog',
             type = 'client',
             event = 'qb-hotdogjob:client:ToggleSell',
@@ -46,14 +46,14 @@ Config.MenuItems = {
             items = {
                 {
                     id = 'handcuff',
-                    title = 'Cuff',
+                    title = 'Menotter',
                     icon = 'user-lock',
                     type = 'client',
                     event = 'police:client:CuffPlayerSoft',
                     shouldClose = true
                 }, {
                 id = 'playerinvehicle',
-                title = 'Put In Vehicle',
+                title = 'Forcer dans véhicule',
                 icon = 'car-side',
                 type = 'client',
                 event = 'police:client:PutPlayerInVehicle',
@@ -67,14 +67,14 @@ Config.MenuItems = {
                 shouldClose = true
             }, {
                 id = 'stealplayer',
-                title = 'Rob',
+                title = 'Piller',
                 icon = 'mask',
                 type = 'client',
                 event = 'police:client:RobPlayer',
                 shouldClose = true
             }, {
                 id = 'escort',
-                title = 'Kidnap',
+                title = 'Kidnapper',
                 icon = 'user-group',
                 type = 'client',
                 event = 'police:client:KidnapPlayer',
@@ -86,7 +86,8 @@ Config.MenuItems = {
                 type = 'client',
                 event = 'police:client:EscortPlayer',
                 shouldClose = true
-            }, {
+            }
+            --[[, {
                 id = 'escort554',
                 title = 'Hostage',
                 icon = 'child',
@@ -94,6 +95,7 @@ Config.MenuItems = {
                 event = 'A5:Client:TakeHostage',
                 shouldClose = true
             }
+            --]]
             }
         }
         }
