@@ -627,8 +627,8 @@ Config.JobInteractions = {
             id = 'searchplayer',
             title = 'Search',
             icon = 'magnifying-glass',
-            type = 'client',
-            event = 'police:client:SearchPlayer',
+            type = 'server',
+            event = 'police:server:SearchPlayer',
             shouldClose = true
         }, {
             id = 'jailplayer',
